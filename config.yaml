@@ -1,0 +1,8 @@
+# Archivo de configuración para el analizador de liquidez de Binance
+symbol: 'BTCUSDT'
+lookback_period: '3 days ago UTC' # Periodo para calcular máximos/mínimos
+aggregation_level: 100.0        # Agregación para el libro de órdenes (en USD)
+
+telegram:
+  bot_token: 'AQUI_VA_EL_TOKEN_DE_TU_BOT' # Reemplaza con el token de tu Bot de Telegram
+  chat_id: 'AQUI_VA_TU_CHAT_ID'         # Reemplaza con tu Chat ID o el de tu grupo
